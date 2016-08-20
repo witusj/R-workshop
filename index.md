@@ -22,14 +22,14 @@ De workshop bestaat uit drie sessies:
 Locatie: HAN, Kapittelweg 33, 6525 EN Nijmegen (Lokaal C106)
 
 <!-- Map generated in R 3.3.0 by googleVis 0.5.10 package -->
-<!-- Sat Aug 20 09:32:40 2016 -->
+<!-- Sat Aug 20 09:34:46 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMapIDea473da731d0 () {
+function gvisDataMapIDed23fe92fb4 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -45,8 +45,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMapIDea473da731d0() {
-var data = gvisDataMapIDea473da731d0();
+function drawChartMapIDed23fe92fb4() {
+var data = gvisDataMapIDed23fe92fb4();
 var options = {};
 options["showTip"] = true;
 options["mapType"] = "normal";
@@ -55,7 +55,7 @@ options["width"] =    100;
 options["height"] =    300;
 
     var chart = new google.visualization.Map(
-    document.getElementById('MapIDea473da731d0')
+    document.getElementById('MapIDed23fe92fb4')
     );
     chart.draw(data,options);
     
@@ -79,9 +79,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartMapIDea473da731d0);
+callbacks.push(drawChartMapIDed23fe92fb4);
 })();
-function displayChartMapIDea473da731d0() {
+function displayChartMapIDed23fe92fb4() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -105,11 +105,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMapIDea473da731d0"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMapIDed23fe92fb4"></script>
  
 <!-- divChart -->
   
-<div id="MapIDea473da731d0" 
+<div id="MapIDed23fe92fb4" 
   style="width: 100; height: 300;">
 </div>
 <br>
@@ -824,14 +824,14 @@ plot(survChart)
 ```
 
 <!-- BubbleChart generated in R 3.3.0 by googleVis 0.5.10 package -->
-<!-- Sat Aug 20 09:32:41 2016 -->
+<!-- Sat Aug 20 09:34:47 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataBubbleChartIDea472c4fb674 () {
+function gvisDataBubbleChartIDed232b8cc161 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1193,8 +1193,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartBubbleChartIDea472c4fb674() {
-var data = gvisDataBubbleChartIDea472c4fb674();
+function drawChartBubbleChartIDed232b8cc161() {
+var data = gvisDataBubbleChartIDed232b8cc161();
 var options = {};
 options["hAxis"] = {minValue:1, maxValue:5, title:"Gevolg"};
 options["vAxis"] = {minValue:1, maxValue:5, title:"Waarschijnlijkheid"};
@@ -1202,7 +1202,7 @@ options["width"] =    700;
 options["height"] =    700;
 
     var chart = new google.visualization.BubbleChart(
-    document.getElementById('BubbleChartIDea472c4fb674')
+    document.getElementById('BubbleChartIDed232b8cc161')
     );
     chart.draw(data,options);
     
@@ -1226,9 +1226,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBubbleChartIDea472c4fb674);
+callbacks.push(drawChartBubbleChartIDed232b8cc161);
 })();
-function displayChartBubbleChartIDea472c4fb674() {
+function displayChartBubbleChartIDed232b8cc161() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1252,11 +1252,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartIDea472c4fb674"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartIDed232b8cc161"></script>
  
 <!-- divChart -->
   
-<div id="BubbleChartIDea472c4fb674" 
+<div id="BubbleChartIDed232b8cc161" 
   style="width: 700; height: 700;">
 </div>
 
