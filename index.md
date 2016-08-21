@@ -22,22 +22,14 @@ De workshop bestaat uit drie sessies:
 Locatie: HAN, Kapittelweg 33, 6525 EN Nijmegen (Lokaal C106)
 
 <!-- Map generated in R 3.3.0 by googleVis 0.5.10 package -->
-<<<<<<< HEAD
-<!-- Sun Aug 21 15:00:51 2016 -->
-=======
-<!-- Sat Aug 20 09:34:46 2016 -->
->>>>>>> ef6b6e6a687d85558c99b9b0bb06cca08b9ce46e
+<!-- Sun Aug 21 15:05:08 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-<<<<<<< HEAD
-function gvisDataMapID80de4126f383 () {
-=======
-function gvisDataMapIDed23fe92fb4 () {
->>>>>>> ef6b6e6a687d85558c99b9b0bb06cca08b9ce46e
+function gvisDataMapID84b3188b9718 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -53,13 +45,8 @@ return(data);
 }
  
 // jsDrawChart
-<<<<<<< HEAD
-function drawChartMapID80de4126f383() {
-var data = gvisDataMapID80de4126f383();
-=======
-function drawChartMapIDed23fe92fb4() {
-var data = gvisDataMapIDed23fe92fb4();
->>>>>>> ef6b6e6a687d85558c99b9b0bb06cca08b9ce46e
+function drawChartMapID84b3188b9718() {
+var data = gvisDataMapID84b3188b9718();
 var options = {};
 options["showTip"] = true;
 options["mapType"] = "normal";
@@ -68,11 +55,7 @@ options["width"] =    100;
 options["height"] =    300;
 
     var chart = new google.visualization.Map(
-<<<<<<< HEAD
-    document.getElementById('MapID80de4126f383')
-=======
-    document.getElementById('MapIDed23fe92fb4')
->>>>>>> ef6b6e6a687d85558c99b9b0bb06cca08b9ce46e
+    document.getElementById('MapID84b3188b9718')
     );
     chart.draw(data,options);
     
@@ -96,15 +79,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-<<<<<<< HEAD
-callbacks.push(drawChartMapID80de4126f383);
+callbacks.push(drawChartMapID84b3188b9718);
 })();
-function displayChartMapID80de4126f383() {
-=======
-callbacks.push(drawChartMapIDed23fe92fb4);
-})();
-function displayChartMapIDed23fe92fb4() {
->>>>>>> ef6b6e6a687d85558c99b9b0bb06cca08b9ce46e
+function displayChartMapID84b3188b9718() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -128,19 +105,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<<<<<<< HEAD
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMapID80de4126f383"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMapID84b3188b9718"></script>
  
 <!-- divChart -->
   
-<div id="MapID80de4126f383" 
-=======
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMapIDed23fe92fb4"></script>
- 
-<!-- divChart -->
-  
-<div id="MapIDed23fe92fb4" 
->>>>>>> ef6b6e6a687d85558c99b9b0bb06cca08b9ce46e
+<div id="MapID84b3188b9718" 
   style="width: 100; height: 300;">
 </div>
 <br>
@@ -859,22 +828,14 @@ plot(survChart)
 ```
 
 <!-- BubbleChart generated in R 3.3.0 by googleVis 0.5.10 package -->
-<<<<<<< HEAD
-<!-- Sun Aug 21 15:00:52 2016 -->
-=======
-<!-- Sat Aug 20 09:34:47 2016 -->
->>>>>>> ef6b6e6a687d85558c99b9b0bb06cca08b9ce46e
+<!-- Sun Aug 21 15:05:09 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-<<<<<<< HEAD
-function gvisDataBubbleChartID80de79901346 () {
-=======
-function gvisDataBubbleChartIDed232b8cc161 () {
->>>>>>> ef6b6e6a687d85558c99b9b0bb06cca08b9ce46e
+function gvisDataBubbleChartID84b31fce8283 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1236,13 +1197,8 @@ return(data);
 }
  
 // jsDrawChart
-<<<<<<< HEAD
-function drawChartBubbleChartID80de79901346() {
-var data = gvisDataBubbleChartID80de79901346();
-=======
-function drawChartBubbleChartIDed232b8cc161() {
-var data = gvisDataBubbleChartIDed232b8cc161();
->>>>>>> ef6b6e6a687d85558c99b9b0bb06cca08b9ce46e
+function drawChartBubbleChartID84b31fce8283() {
+var data = gvisDataBubbleChartID84b31fce8283();
 var options = {};
 options["hAxis"] = {minValue:1, maxValue:5, title:"Gevolg"};
 options["vAxis"] = {minValue:1, maxValue:5, title:"Waarschijnlijkheid"};
@@ -1250,11 +1206,7 @@ options["width"] =    700;
 options["height"] =    700;
 
     var chart = new google.visualization.BubbleChart(
-<<<<<<< HEAD
-    document.getElementById('BubbleChartID80de79901346')
-=======
-    document.getElementById('BubbleChartIDed232b8cc161')
->>>>>>> ef6b6e6a687d85558c99b9b0bb06cca08b9ce46e
+    document.getElementById('BubbleChartID84b31fce8283')
     );
     chart.draw(data,options);
     
@@ -1278,15 +1230,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-<<<<<<< HEAD
-callbacks.push(drawChartBubbleChartID80de79901346);
+callbacks.push(drawChartBubbleChartID84b31fce8283);
 })();
-function displayChartBubbleChartID80de79901346() {
-=======
-callbacks.push(drawChartBubbleChartIDed232b8cc161);
-})();
-function displayChartBubbleChartIDed232b8cc161() {
->>>>>>> ef6b6e6a687d85558c99b9b0bb06cca08b9ce46e
+function displayChartBubbleChartID84b31fce8283() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1310,19 +1256,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<<<<<<< HEAD
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID80de79901346"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID84b31fce8283"></script>
  
 <!-- divChart -->
   
-<div id="BubbleChartID80de79901346" 
-=======
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartIDed232b8cc161"></script>
- 
-<!-- divChart -->
-  
-<div id="BubbleChartIDed232b8cc161" 
->>>>>>> ef6b6e6a687d85558c99b9b0bb06cca08b9ce46e
+<div id="BubbleChartID84b31fce8283" 
   style="width: 700; height: 700;">
 </div>
 
