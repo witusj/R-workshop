@@ -45,7 +45,7 @@ Aanmelding geschiedt via dit <a href="https://goo.gl/forms/GGCpoQdm6d5Lkvvu1" ta
 
 Inschrijving vindt plaats naar volgorde van aanmelding. Nadat de aanmeldingstermijn is verstreken, zullen de deelnemers per mail worden geinformeerd.
 
-De kosten van de workshop bedragen 30 EUR per persoon. Het bedrag zal tijdens de eerste sessie contant worden afgerekend met de instructeur.
+De kosten van de workshop bedragen 60 EUR per persoon. Het bedrag zal tijdens de eerste sessie contant worden afgerekend met de instructeur.
 
 ## Voorbereiding
 Om direct aan de gang te kunnen gaan tijdens de workshop sessies is het belangrijk dat je R op je computer installeert. Zie [hier](https://youtu.be/cX532N_XLIs?list=PLqzoL9-eJTNBDdKgJgJzaQcY6OXmsXAHU) voor instructies (Engels).
