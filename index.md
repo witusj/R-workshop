@@ -22,14 +22,14 @@ De workshop bestaat uit drie sessies:
 Locatie: HAN, Kapittelweg 33, 6525 EN Nijmegen (Lokaal C106)
 
 <!-- Map generated in R 3.3.0 by googleVis 0.5.10 package -->
-<!-- Sun Aug 28 16:04:57 2016 -->
+<!-- Sun Aug 28 19:48:26 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMapID1ed82ca4cf5c () {
+function gvisDataMapID23126de871e4 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -45,8 +45,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMapID1ed82ca4cf5c() {
-var data = gvisDataMapID1ed82ca4cf5c();
+function drawChartMapID23126de871e4() {
+var data = gvisDataMapID23126de871e4();
 var options = {};
 options["showTip"] = true;
 options["mapType"] = "normal";
@@ -55,7 +55,7 @@ options["width"] =    100;
 options["height"] =    300;
 
     var chart = new google.visualization.Map(
-    document.getElementById('MapID1ed82ca4cf5c')
+    document.getElementById('MapID23126de871e4')
     );
     chart.draw(data,options);
     
@@ -79,9 +79,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartMapID1ed82ca4cf5c);
+callbacks.push(drawChartMapID23126de871e4);
 })();
-function displayChartMapID1ed82ca4cf5c() {
+function displayChartMapID23126de871e4() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -105,11 +105,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMapID1ed82ca4cf5c"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMapID23126de871e4"></script>
  
 <!-- divChart -->
   
-<div id="MapID1ed82ca4cf5c" 
+<div id="MapID23126de871e4" 
   style="width: 100; height: 300;">
 </div>
 <br>
@@ -148,6 +148,8 @@ plak het in de console en druk op *Enter*.
 Er worden nu een aantal sets van functies geinstalleerd die we tijdens de sessies gaan gebruiken.
 
 ## Basis R
+Om tijdens de eerste sessie direct aan de gang te kunnen gaan met de casussen is het van belang dat je over enige basiskennis beschikt over de werking van R en RStudio. Neem daarom onderstaande korte inleiding tot R door, probeer de voorbeelden uit op je eigen systeem en denk na over de vragen aan het einde van deze paragraaf.
+
 In RStudio kun je op twee manieren code schrijven en laten uitvoeren:
 
 * Direct via de console
@@ -828,14 +830,14 @@ plot(survChart)
 ```
 
 <!-- BubbleChart generated in R 3.3.0 by googleVis 0.5.10 package -->
-<!-- Sun Aug 28 16:04:57 2016 -->
+<!-- Sun Aug 28 19:48:27 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataBubbleChartID1ed82957a885 () {
+function gvisDataBubbleChartID23121c7f528b () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1197,8 +1199,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartBubbleChartID1ed82957a885() {
-var data = gvisDataBubbleChartID1ed82957a885();
+function drawChartBubbleChartID23121c7f528b() {
+var data = gvisDataBubbleChartID23121c7f528b();
 var options = {};
 options["hAxis"] = {minValue:1, maxValue:5, title:"Gevolg"};
 options["vAxis"] = {minValue:1, maxValue:5, title:"Waarschijnlijkheid"};
@@ -1206,7 +1208,7 @@ options["width"] =    700;
 options["height"] =    700;
 
     var chart = new google.visualization.BubbleChart(
-    document.getElementById('BubbleChartID1ed82957a885')
+    document.getElementById('BubbleChartID23121c7f528b')
     );
     chart.draw(data,options);
     
@@ -1230,9 +1232,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBubbleChartID1ed82957a885);
+callbacks.push(drawChartBubbleChartID23121c7f528b);
 })();
-function displayChartBubbleChartID1ed82957a885() {
+function displayChartBubbleChartID23121c7f528b() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1256,11 +1258,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID1ed82957a885"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID23121c7f528b"></script>
  
 <!-- divChart -->
   
-<div id="BubbleChartID1ed82957a885" 
+<div id="BubbleChartID23121c7f528b" 
   style="width: 700; height: 700;">
 </div>
 

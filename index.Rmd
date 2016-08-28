@@ -72,6 +72,8 @@ plak het in de console en druk op *Enter*.
 Er worden nu een aantal sets van functies geinstalleerd die we tijdens de sessies gaan gebruiken.
 
 ## Basis R
+Om tijdens de eerste sessie direct aan de gang te kunnen gaan met de casussen is het van belang dat je over enige basiskennis beschikt over de werking van R en RStudio. Neem daarom onderstaande korte inleiding tot R door, probeer de voorbeelden uit op je eigen systeem en denk na over de vragen aan het einde van deze paragraaf.
+
 In RStudio kun je op twee manieren code schrijven en laten uitvoeren:
 
 * Direct via de console
