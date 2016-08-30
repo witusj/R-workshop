@@ -26,14 +26,14 @@ De workshop bestaat uit drie sessies:
 Locatie: Oranjesingel 42, 6511 NW Nijmegen (Vergaderzaal)
 
 <!-- Map generated in R 3.3.0 by googleVis 0.5.10 package -->
-<!-- Tue Aug 30 15:22:06 2016 -->
+<!-- Tue Aug 30 16:49:55 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMapID37876ff2e681 () {
+function gvisDataMapID5c0d695309eb () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -49,8 +49,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMapID37876ff2e681() {
-var data = gvisDataMapID37876ff2e681();
+function drawChartMapID5c0d695309eb() {
+var data = gvisDataMapID5c0d695309eb();
 var options = {};
 options["showTip"] = true;
 options["mapType"] = "normal";
@@ -59,7 +59,7 @@ options["width"] =    100;
 options["height"] =    300;
 
     var chart = new google.visualization.Map(
-    document.getElementById('MapID37876ff2e681')
+    document.getElementById('MapID5c0d695309eb')
     );
     chart.draw(data,options);
     
@@ -83,9 +83,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartMapID37876ff2e681);
+callbacks.push(drawChartMapID5c0d695309eb);
 })();
-function displayChartMapID37876ff2e681() {
+function displayChartMapID5c0d695309eb() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -109,11 +109,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMapID37876ff2e681"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMapID5c0d695309eb"></script>
  
 <!-- divChart -->
   
-<div id="MapID37876ff2e681" 
+<div id="MapID5c0d695309eb" 
   style="width: 100; height: 300;">
 </div>
 <br>
@@ -122,7 +122,7 @@ Tijdens iedere sessie ga je werken aan een opdracht. Je krijgt een dataset (of e
 ## Inschrijving
 Aanmelding geschiedt via dit <a href="https://goo.gl/forms/GGCpoQdm6d5Lkvvu1" target="_blank">formulier</a>. Er kunnen maximaal 16 personen deelnemen. Mocht er na de aanmelding iets veranderd zijn waardoor je niet meer kunt deelnemen, geef dit dan door aan de instructeur via wfth1969@gmail.com.
 
-Inschrijving vindt plaats naar volgorde van aanmelding. Nadat de aanmeldingstermijn is verstreken, zullen de deelnemers per mail worden geinformeerd.
+Inschrijving vindt plaats naar volgorde van aanmelding. De uiterste aanmeldingsdatum is maandag 12 september. Nadat de aanmeldingstermijn is verstreken, zullen de deelnemers per mail worden geinformeerd.
 
 De kosten van de workshop bedragen 95 EUR per persoon. Het bedrag zal tijdens de eerste sessie contant worden afgerekend met de instructeur.
 
@@ -836,14 +836,14 @@ plot(survChart)
 ```
 
 <!-- BubbleChart generated in R 3.3.0 by googleVis 0.5.10 package -->
-<!-- Tue Aug 30 15:22:06 2016 -->
+<!-- Tue Aug 30 16:49:56 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataBubbleChartID3787319486f3 () {
+function gvisDataBubbleChartID5c0d185209eb () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1205,8 +1205,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartBubbleChartID3787319486f3() {
-var data = gvisDataBubbleChartID3787319486f3();
+function drawChartBubbleChartID5c0d185209eb() {
+var data = gvisDataBubbleChartID5c0d185209eb();
 var options = {};
 options["hAxis"] = {minValue:1, maxValue:5, title:"Gevolg"};
 options["vAxis"] = {minValue:1, maxValue:5, title:"Waarschijnlijkheid"};
@@ -1214,7 +1214,7 @@ options["width"] =    700;
 options["height"] =    700;
 
     var chart = new google.visualization.BubbleChart(
-    document.getElementById('BubbleChartID3787319486f3')
+    document.getElementById('BubbleChartID5c0d185209eb')
     );
     chart.draw(data,options);
     
@@ -1238,9 +1238,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBubbleChartID3787319486f3);
+callbacks.push(drawChartBubbleChartID5c0d185209eb);
 })();
-function displayChartBubbleChartID3787319486f3() {
+function displayChartBubbleChartID5c0d185209eb() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1264,11 +1264,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID3787319486f3"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID5c0d185209eb"></script>
  
 <!-- divChart -->
   
-<div id="BubbleChartID3787319486f3" 
+<div id="BubbleChartID5c0d185209eb" 
   style="width: 700; height: 700;">
 </div>
 
