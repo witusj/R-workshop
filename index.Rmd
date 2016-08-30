@@ -28,9 +28,9 @@ Deze workshop is ontwikkeld voor mensen die nog geen of zeer beperkte ervaring h
 ## Workshop sessies
 De workshop bestaat uit drie sessies:
 
-* __Sessie 1__: Dinsdag 6 september 2016 van 18:30 tot 21:00u
-* __Sessie 2__: Dinsdag 13 september 2016 van 18:30 tot 21:00u
-* __Sessie 3__: Dinsdag 20 september 2016 van 18:30 tot 21:00u
+* __Sessie 1__: Woensdag 21 september 2016 van 18:30 tot 21:00u
+* __Sessie 2__: Woensdag 28 september 2016 van 18:30 tot 21:00u
+* __Sessie 3__: Woensdag 5 oktober 2016 van 18:30 tot 21:00u
 
 Locatie: `r paste0(adres, " (", extra, ")")`
 
@@ -45,7 +45,9 @@ Aanmelding geschiedt via dit <a href="https://goo.gl/forms/GGCpoQdm6d5Lkvvu1" ta
 
 Inschrijving vindt plaats naar volgorde van aanmelding. Nadat de aanmeldingstermijn is verstreken, zullen de deelnemers per mail worden geinformeerd.
 
-De kosten van de workshop bedragen 60 EUR per persoon. Het bedrag zal tijdens de eerste sessie contant worden afgerekend met de instructeur.
+De kosten van de workshop bedragen 95 EUR per persoon. Het bedrag zal tijdens de eerste sessie contant worden afgerekend met de instructeur.
+
+Tijdens de sessies zal koffie en thee worden geserveerd en er is toegang tot een WIFI netwerk. Zie [hier](http://www.devilla-nijmegen.nl/contact/) voor meer informatie betreffende de locatie.
 
 ## Voorbereiding
 Om direct aan de gang te kunnen gaan tijdens de workshop sessies is het belangrijk dat je R op je computer installeert. Zie [hier](https://youtu.be/cX532N_XLIs?list=PLqzoL9-eJTNBDdKgJgJzaQcY6OXmsXAHU) voor instructies (Engels).

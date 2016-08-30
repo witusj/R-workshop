@@ -15,27 +15,27 @@ Deze workshop is ontwikkeld voor mensen die nog geen of zeer beperkte ervaring h
 ## Workshop sessies
 De workshop bestaat uit drie sessies:
 
-* __Sessie 1__: Dinsdag 6 september 2016 van 18:30 tot 21:00u
-* __Sessie 2__: Dinsdag 13 september 2016 van 18:30 tot 21:00u
-* __Sessie 3__: Dinsdag 20 september 2016 van 18:30 tot 21:00u
+* __Sessie 1__: Woensdag 21 september 2016 van 18:30 tot 21:00u
+* __Sessie 2__: Woensdag 28 september 2016 van 18:30 tot 21:00u
+* __Sessie 3__: Woensdag 5 oktober 2016 van 18:30 tot 21:00u
 
-Locatie: HAN, Kapittelweg 33, 6525 EN Nijmegen (Lokaal C106)
+Locatie: Oranjesingel 42, 6511 NW Nijmegen (Vergaderzaal)
 
 <!-- Map generated in R 3.3.0 by googleVis 0.5.10 package -->
-<!-- Sun Aug 28 19:48:26 2016 -->
+<!-- Tue Aug 30 14:03:16 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMapID23126de871e4 () {
+function gvisDataMapID357a46b0040d () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
  [
- "HAN, Kapittelweg 33, 6525 EN Nijmegen",
-"Lokaal C106<br><a href='https://goo.gl/maps/PA9xeFzKYNp'>Get directions</a>" 
+ "Oranjesingel 42, 6511 NW Nijmegen",
+"Vergaderzaal<br><a href='https://goo.gl/maps/jLUsm7gVtxw'>Get directions</a>" 
 ] 
 ];
 data.addColumn('string','adres');
@@ -45,8 +45,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMapID23126de871e4() {
-var data = gvisDataMapID23126de871e4();
+function drawChartMapID357a46b0040d() {
+var data = gvisDataMapID357a46b0040d();
 var options = {};
 options["showTip"] = true;
 options["mapType"] = "normal";
@@ -55,7 +55,7 @@ options["width"] =    100;
 options["height"] =    300;
 
     var chart = new google.visualization.Map(
-    document.getElementById('MapID23126de871e4')
+    document.getElementById('MapID357a46b0040d')
     );
     chart.draw(data,options);
     
@@ -79,9 +79,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartMapID23126de871e4);
+callbacks.push(drawChartMapID357a46b0040d);
 })();
-function displayChartMapID23126de871e4() {
+function displayChartMapID357a46b0040d() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -105,11 +105,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMapID23126de871e4"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMapID357a46b0040d"></script>
  
 <!-- divChart -->
   
-<div id="MapID23126de871e4" 
+<div id="MapID357a46b0040d" 
   style="width: 100; height: 300;">
 </div>
 <br>
@@ -120,7 +120,9 @@ Aanmelding geschiedt via dit <a href="https://goo.gl/forms/GGCpoQdm6d5Lkvvu1" ta
 
 Inschrijving vindt plaats naar volgorde van aanmelding. Nadat de aanmeldingstermijn is verstreken, zullen de deelnemers per mail worden geinformeerd.
 
-De kosten van de workshop bedragen 60 EUR per persoon. Het bedrag zal tijdens de eerste sessie contant worden afgerekend met de instructeur.
+De kosten van de workshop bedragen 95 EUR per persoon. Het bedrag zal tijdens de eerste sessie contant worden afgerekend met de instructeur.
+
+Tijdens de sessies zal koffie en thee worden geserveerd en er is toegang tot een WIFI netwerk. Zie [hier](http://www.devilla-nijmegen.nl/contact/) voor meer informatie betreffende de locatie.
 
 ## Voorbereiding
 Om direct aan de gang te kunnen gaan tijdens de workshop sessies is het belangrijk dat je R op je computer installeert. Zie [hier](https://youtu.be/cX532N_XLIs?list=PLqzoL9-eJTNBDdKgJgJzaQcY6OXmsXAHU) voor instructies (Engels).
@@ -830,14 +832,14 @@ plot(survChart)
 ```
 
 <!-- BubbleChart generated in R 3.3.0 by googleVis 0.5.10 package -->
-<!-- Sun Aug 28 19:48:27 2016 -->
+<!-- Tue Aug 30 14:03:16 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataBubbleChartID23121c7f528b () {
+function gvisDataBubbleChartID357a18f975bb () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1199,8 +1201,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartBubbleChartID23121c7f528b() {
-var data = gvisDataBubbleChartID23121c7f528b();
+function drawChartBubbleChartID357a18f975bb() {
+var data = gvisDataBubbleChartID357a18f975bb();
 var options = {};
 options["hAxis"] = {minValue:1, maxValue:5, title:"Gevolg"};
 options["vAxis"] = {minValue:1, maxValue:5, title:"Waarschijnlijkheid"};
@@ -1208,7 +1210,7 @@ options["width"] =    700;
 options["height"] =    700;
 
     var chart = new google.visualization.BubbleChart(
-    document.getElementById('BubbleChartID23121c7f528b')
+    document.getElementById('BubbleChartID357a18f975bb')
     );
     chart.draw(data,options);
     
@@ -1232,9 +1234,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBubbleChartID23121c7f528b);
+callbacks.push(drawChartBubbleChartID357a18f975bb);
 })();
-function displayChartBubbleChartID23121c7f528b() {
+function displayChartBubbleChartID357a18f975bb() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1258,11 +1260,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID23121c7f528b"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID357a18f975bb"></script>
  
 <!-- divChart -->
   
-<div id="BubbleChartID23121c7f528b" 
+<div id="BubbleChartID357a18f975bb" 
   style="width: 700; height: 700;">
 </div>
 
