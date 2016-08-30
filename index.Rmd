@@ -36,12 +36,8 @@ De workshop bestaat uit drie sessies:
 * __Sessie 2__: Woensdag 5 oktober 2016 van 18:30 tot 21:00u
 * __Sessie 3__: Woensdag 12 oktober 2016 van 18:30 tot 21:00u
 
-Locatie: `r paste0(adres, " (", extra, ")")`
+Alle sessies worden in Nijmegen georganiseerd. De exacte locatie zal met de bevestiging van deelname worden meegestuurd.
 
-```{r Map1, echo=FALSE, results='asis', tidy=FALSE}
-plot(M1)
-```
-<br>
 Tijdens iedere sessie ga je werken aan een opdracht. Je krijgt een dataset (of een verwijzing naar een online databron) en gaat hier informatie uit halen. De instructeur helpt je als je vastloopt of geeft suggesties voor verbeteringen van je code.
 
 ## Inschrijving
@@ -49,9 +45,9 @@ Aanmelding geschiedt via dit <a href="https://goo.gl/forms/GGCpoQdm6d5Lkvvu1" ta
 
 Inschrijving vindt plaats naar volgorde van aanmelding. De **uiterste aanmeldingsdatum** is **maandag 19 september**. Nadat de aanmeldingstermijn is verstreken, zullen de deelnemers per mail worden geinformeerd.
 
-De kosten van de workshop bedragen 95 EUR per persoon. Het bedrag zal tijdens de eerste sessie contant worden afgerekend met de instructeur.
+Afhankelijk van het aantal deelnemers zullen de kosten van de workshop maximaal 95 EUR per persoon bedragen. Het exacte bedrag zal van te voren worden bekendgemaakt en kan tijdens de eerste sessie contant worden afgerekend met de instructeur.
 
-Tijdens de sessies zal koffie en thee worden geserveerd en er is toegang tot een WIFI netwerk. Zie [hier](http://www.devilla-nijmegen.nl/contact/) voor meer informatie betreffende de locatie.
+Tijdens de sessies zal koffie en thee worden geserveerd en er is toegang tot een WIFI netwerk. Je dient zelf een laptop mee te nemen (Mac, Windows of Linux).
 
 ## Voorbereiding
 Om direct aan de gang te kunnen gaan tijdens de workshop sessies is het belangrijk dat je R op je computer installeert. Zie [hier](https://youtu.be/cX532N_XLIs?list=PLqzoL9-eJTNBDdKgJgJzaQcY6OXmsXAHU) voor instructies (Engels).
