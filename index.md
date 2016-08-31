@@ -14,7 +14,7 @@ Deze workshop is ontwikkeld voor mensen die nog geen of zeer beperkte ervaring h
 
 ## De instructeur
 
-[Witek ten Hove](https://nl.linkedin.com/in/witektenhove) is hoofddocent aan de Hogeschool van Arnhem en Nijmegen en voorzitter van de R-User Group in Nijmegen. Na zijn studie aan de Universiteit van Maastricht heeft hij bij verschillende multinationals gewerkt als business analist, beurshandelaar en commodity trader. Zijn specialisaties zijn onder andere data science en online / blended learning.
+[Witek ten Hove](https://nl.linkedin.com/in/witektenhove) is hoofddocent aan de Hogeschool van Arnhem en Nijmegen en voorzitter van de R-User Group in Nijmegen. Na zijn studie Economie aan de Universiteit van Maastricht heeft hij bij verschillende multinationals gewerkt als business analist, beurshandelaar en commodity trader. Zijn specialisaties zijn onder andere data science en online / blended learning.
 
 ## Workshop sessies
 De workshop bestaat uit drie sessies:
@@ -744,14 +744,14 @@ plot(survChart)
 ```
 
 <!-- BubbleChart generated in R 3.3.0 by googleVis 0.5.10 package -->
-<!-- Wed Aug 31 08:27:31 2016 -->
+<!-- Wed Aug 31 14:54:54 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataBubbleChartID3cf54559afc () {
+function gvisDataBubbleChartID6042ed54eb7 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1113,8 +1113,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartBubbleChartID3cf54559afc() {
-var data = gvisDataBubbleChartID3cf54559afc();
+function drawChartBubbleChartID6042ed54eb7() {
+var data = gvisDataBubbleChartID6042ed54eb7();
 var options = {};
 options["hAxis"] = {minValue:1, maxValue:5, title:"Gevolg"};
 options["vAxis"] = {minValue:1, maxValue:5, title:"Waarschijnlijkheid"};
@@ -1122,7 +1122,7 @@ options["width"] =    700;
 options["height"] =    700;
 
     var chart = new google.visualization.BubbleChart(
-    document.getElementById('BubbleChartID3cf54559afc')
+    document.getElementById('BubbleChartID6042ed54eb7')
     );
     chart.draw(data,options);
     
@@ -1146,9 +1146,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBubbleChartID3cf54559afc);
+callbacks.push(drawChartBubbleChartID6042ed54eb7);
 })();
-function displayChartBubbleChartID3cf54559afc() {
+function displayChartBubbleChartID6042ed54eb7() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1172,11 +1172,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID3cf54559afc"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID6042ed54eb7"></script>
  
 <!-- divChart -->
   
-<div id="BubbleChartID3cf54559afc" 
+<div id="BubbleChartID6042ed54eb7" 
   style="width: 700; height: 700;">
 </div>
 
