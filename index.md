@@ -8,7 +8,7 @@ Witek ten Hove - wfth1969@gmail.com
 
 In deze workshop leer je op een slimme wijze kwantitatieve data verzamelen, deze om te zetten naar bruikbare input voor je analyse en uitkomsten te visualiseren en te rapporteren.
 
-Tijdens de workshop werk je met [R](https://www.r-project.org/). Deze software is speciaal ontwikkeld om makkelijk en snel data in te lezen en te verwerken. Het is op dit moment naast Python de belangrijkste tool voor data analyse en wordt ingezet door ondernemingen als bijvoorbeeld Facebook, Airbnb en Microsoft om informatie uit hun enorme databestanden te genereren. Je bent dus in uitstekend gezelschap als je klaar bent met het leertraject.
+Tijdens de workshop werk je met [R](https://www.r-project.org/). Deze software is speciaal ontwikkeld om makkelijk en snel data in te lezen en te verwerken. Het is op dit moment naast Python de [belangrijkste tool voor data analyse](http://blog.revolutionanalytics.com/2016/06/r-holds-top-ranking-in-kdnuggets-software-poll.html) en wordt ingezet door ondernemingen als bijvoorbeeld Facebook, Airbnb en Microsoft om informatie uit hun enorme databestanden te genereren. Je bent dus in uitstekend gezelschap als je klaar bent met het leertraject.
 
 Deze workshop is ontwikkeld voor mensen die nog geen of zeer beperkte ervaring hebben met programmeren. Wellicht heb je al een beetje ervaring met Excel of SPSS. Dit is handig, maar geen vereiste om deel te kunnen nemen. R is een programmeertaal, maar zeer eenvoudig qua opzet en je zult merken dat je al heel snel krachtige stukjes code (scripts) kunt schrijven. Je hoeft geen investeringen te doen, want R is volledig open source en werkt op zowel Mac OS, Windows als Linux.
 
@@ -744,14 +744,14 @@ plot(survChart)
 ```
 
 <!-- BubbleChart generated in R 3.3.0 by googleVis 0.5.10 package -->
-<!-- Tue Aug 30 20:30:29 2016 -->
+<!-- Wed Aug 31 08:27:31 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataBubbleChartID9ef835a4210a () {
+function gvisDataBubbleChartID3cf54559afc () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1113,8 +1113,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartBubbleChartID9ef835a4210a() {
-var data = gvisDataBubbleChartID9ef835a4210a();
+function drawChartBubbleChartID3cf54559afc() {
+var data = gvisDataBubbleChartID3cf54559afc();
 var options = {};
 options["hAxis"] = {minValue:1, maxValue:5, title:"Gevolg"};
 options["vAxis"] = {minValue:1, maxValue:5, title:"Waarschijnlijkheid"};
@@ -1122,7 +1122,7 @@ options["width"] =    700;
 options["height"] =    700;
 
     var chart = new google.visualization.BubbleChart(
-    document.getElementById('BubbleChartID9ef835a4210a')
+    document.getElementById('BubbleChartID3cf54559afc')
     );
     chart.draw(data,options);
     
@@ -1146,9 +1146,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBubbleChartID9ef835a4210a);
+callbacks.push(drawChartBubbleChartID3cf54559afc);
 })();
-function displayChartBubbleChartID9ef835a4210a() {
+function displayChartBubbleChartID3cf54559afc() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1172,11 +1172,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID9ef835a4210a"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID3cf54559afc"></script>
  
 <!-- divChart -->
   
-<div id="BubbleChartID9ef835a4210a" 
+<div id="BubbleChartID3cf54559afc" 
   style="width: 700; height: 700;">
 </div>
 
