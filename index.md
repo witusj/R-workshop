@@ -288,7 +288,7 @@ head(Locatie)
 
 1. Zoals je ziet hebben de variabelen `Plaats` en `Land` uit het voorbeeld door de omzetting naar een data frame de `class` `factor` gekregen. Hoe zet je de `class` van beide variabelen weer terug naar `character`?
 
-2. Hoe vervang je de elementen uit de laatste rij door `("Berlin", "Deutschland")`?
+2. Hoe vervang je de elementen uit de laatste rij door `("Berlin", "Deutschland", 80.6)`?
 
 3. Neem volgende code over in een script, voer het uit en analyseer wat er gebeurt.
 
@@ -760,14 +760,14 @@ plot(survChart)
 ```
 
 <!-- BubbleChart generated in R 3.3.0 by googleVis 0.5.10 package -->
-<!-- Mon Sep  5 09:35:41 2016 -->
+<!-- Mon Sep  5 09:38:42 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataBubbleChartID5c85531ee62c () {
+function gvisDataBubbleChartID5f7b65fbe58a () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1129,8 +1129,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartBubbleChartID5c85531ee62c() {
-var data = gvisDataBubbleChartID5c85531ee62c();
+function drawChartBubbleChartID5f7b65fbe58a() {
+var data = gvisDataBubbleChartID5f7b65fbe58a();
 var options = {};
 options["hAxis"] = {minValue:1, maxValue:5, title:"Gevolg"};
 options["vAxis"] = {minValue:1, maxValue:5, title:"Waarschijnlijkheid"};
@@ -1138,7 +1138,7 @@ options["width"] =    700;
 options["height"] =    700;
 
     var chart = new google.visualization.BubbleChart(
-    document.getElementById('BubbleChartID5c85531ee62c')
+    document.getElementById('BubbleChartID5f7b65fbe58a')
     );
     chart.draw(data,options);
     
@@ -1162,9 +1162,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBubbleChartID5c85531ee62c);
+callbacks.push(drawChartBubbleChartID5f7b65fbe58a);
 })();
-function displayChartBubbleChartID5c85531ee62c() {
+function displayChartBubbleChartID5f7b65fbe58a() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1188,11 +1188,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID5c85531ee62c"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID5f7b65fbe58a"></script>
  
 <!-- divChart -->
   
-<div id="BubbleChartID5c85531ee62c" 
+<div id="BubbleChartID5f7b65fbe58a" 
   style="width: 700; height: 700;">
 </div>
 

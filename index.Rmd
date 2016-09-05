@@ -193,7 +193,7 @@ head(Locatie)
 
 1. Zoals je ziet hebben de variabelen `Plaats` en `Land` uit het voorbeeld door de omzetting naar een data frame de `class` `factor` gekregen. Hoe zet je de `class` van beide variabelen weer terug naar `character`?
 
-2. Hoe vervang je de elementen uit de laatste rij door `("Berlin", "Deutschland")`?
+2. Hoe vervang je de elementen uit de laatste rij door `("Berlin", "Deutschland", 80.6)`?
 
 3. Neem volgende code over in een script, voer het uit en analyseer wat er gebeurt.
 
