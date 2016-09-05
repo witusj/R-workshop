@@ -149,7 +149,7 @@ Plaats[2]
 ## [1] "London"
 ```
 
-De elementen uit de vector `("Man", "Man", "Vrouw")` kunnen van `class` *letters* zijn, maar waarschijnlijk is de functie van zo een vector een verzameling van *factoren* met 3 levels: `Transgender`, `Man` en `Vrouw`. Dit kunnen we specifiek aangeven in R.
+De elementen uit de vector `("Man", "Man", "Vrouw", "Transgender")` kunnen van `class` *letters* zijn, maar waarschijnlijk is de functie van zo een vector een verzameling van *factoren* met 3 levels: `Transgender`, `Man` en `Vrouw`. Dit kunnen we specifiek aangeven in R.
 
 
 ```r
@@ -760,14 +760,14 @@ plot(survChart)
 ```
 
 <!-- BubbleChart generated in R 3.3.0 by googleVis 0.5.10 package -->
-<!-- Mon Sep  5 09:39:50 2016 -->
+<!-- Mon Sep  5 18:39:43 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataBubbleChartID60121e9f38b1 () {
+function gvisDataBubbleChartID82b73c3af39e () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1129,8 +1129,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartBubbleChartID60121e9f38b1() {
-var data = gvisDataBubbleChartID60121e9f38b1();
+function drawChartBubbleChartID82b73c3af39e() {
+var data = gvisDataBubbleChartID82b73c3af39e();
 var options = {};
 options["hAxis"] = {minValue:1, maxValue:5, title:"Gevolg"};
 options["vAxis"] = {minValue:1, maxValue:5, title:"Waarschijnlijkheid"};
@@ -1138,7 +1138,7 @@ options["width"] =    700;
 options["height"] =    700;
 
     var chart = new google.visualization.BubbleChart(
-    document.getElementById('BubbleChartID60121e9f38b1')
+    document.getElementById('BubbleChartID82b73c3af39e')
     );
     chart.draw(data,options);
     
@@ -1162,9 +1162,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBubbleChartID60121e9f38b1);
+callbacks.push(drawChartBubbleChartID82b73c3af39e);
 })();
-function displayChartBubbleChartID60121e9f38b1() {
+function displayChartBubbleChartID82b73c3af39e() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1188,11 +1188,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID60121e9f38b1"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID82b73c3af39e"></script>
  
 <!-- divChart -->
   
-<div id="BubbleChartID60121e9f38b1" 
+<div id="BubbleChartID82b73c3af39e" 
   style="width: 700; height: 700;">
 </div>
 
