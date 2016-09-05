@@ -184,7 +184,7 @@ Locatie$Plaats[1]
 Als we een nieuwe kolom met data willen toevoegen, kunnen we dit in één keer doen.
 
 ```{r, echo=TRUE, message=TRUE, warning=FALSE}
-## Data frame structuur
+## Kolom toevoegen
 Locatie$Inwoners <- c(38.5, 64.1, 16.8)
 head(Locatie)
 ```

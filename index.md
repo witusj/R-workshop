@@ -272,7 +272,7 @@ Als we een nieuwe kolom met data willen toevoegen, kunnen we dit in één keer d
 
 
 ```r
-## Data frame structuur
+## Kolom toevoegen
 Locatie$Inwoners <- c(38.5, 64.1, 16.8)
 head(Locatie)
 ```
@@ -760,14 +760,14 @@ plot(survChart)
 ```
 
 <!-- BubbleChart generated in R 3.3.0 by googleVis 0.5.10 package -->
-<!-- Mon Sep  5 09:38:42 2016 -->
+<!-- Mon Sep  5 09:39:50 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataBubbleChartID5f7b65fbe58a () {
+function gvisDataBubbleChartID60121e9f38b1 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1129,8 +1129,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartBubbleChartID5f7b65fbe58a() {
-var data = gvisDataBubbleChartID5f7b65fbe58a();
+function drawChartBubbleChartID60121e9f38b1() {
+var data = gvisDataBubbleChartID60121e9f38b1();
 var options = {};
 options["hAxis"] = {minValue:1, maxValue:5, title:"Gevolg"};
 options["vAxis"] = {minValue:1, maxValue:5, title:"Waarschijnlijkheid"};
@@ -1138,7 +1138,7 @@ options["width"] =    700;
 options["height"] =    700;
 
     var chart = new google.visualization.BubbleChart(
-    document.getElementById('BubbleChartID5f7b65fbe58a')
+    document.getElementById('BubbleChartID60121e9f38b1')
     );
     chart.draw(data,options);
     
@@ -1162,9 +1162,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBubbleChartID5f7b65fbe58a);
+callbacks.push(drawChartBubbleChartID60121e9f38b1);
 })();
-function displayChartBubbleChartID5f7b65fbe58a() {
+function displayChartBubbleChartID60121e9f38b1() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1188,11 +1188,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID5f7b65fbe58a"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID60121e9f38b1"></script>
  
 <!-- divChart -->
   
-<div id="BubbleChartID5f7b65fbe58a" 
+<div id="BubbleChartID60121e9f38b1" 
   style="width: 700; height: 700;">
 </div>
 
