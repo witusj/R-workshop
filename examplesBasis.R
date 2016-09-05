@@ -29,6 +29,10 @@ Locatie[,2]
 Locatie$Land
 Locatie$Plaats[1]
 
+## Kolom toevoegen
+Locatie$Inwoners <- c(38.5, 64.1, 16.8)
+head(Locatie)
+
 ## Vragenset Basis
 ### 1
 Locatie$Plaats <- as.character(Locatie$Plaats)
@@ -38,4 +42,4 @@ Locatie$Land <- as.character(Locatie$Land)
 Locatie[,c(1,2)] <- sapply(Locatie[,c(1,2)], as.character)
 
 ### 2
-Locatie[3,] <- c("Berlin", "Deutschland")
+Locatie[3,] <- c("Berlin", "Deutschland", 80.6)
