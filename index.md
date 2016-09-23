@@ -760,14 +760,14 @@ plot(survChart)
 ```
 
 <!-- BubbleChart generated in R 3.3.0 by googleVis 0.5.10 package -->
-<!-- Mon Sep  5 18:41:06 2016 -->
+<!-- Fri Sep 23 23:40:29 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataBubbleChartID834862accdcd () {
+function gvisDataBubbleChartID14253d210d74 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1129,8 +1129,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartBubbleChartID834862accdcd() {
-var data = gvisDataBubbleChartID834862accdcd();
+function drawChartBubbleChartID14253d210d74() {
+var data = gvisDataBubbleChartID14253d210d74();
 var options = {};
 options["hAxis"] = {minValue:1, maxValue:5, title:"Gevolg"};
 options["vAxis"] = {minValue:1, maxValue:5, title:"Waarschijnlijkheid"};
@@ -1138,7 +1138,7 @@ options["width"] =    700;
 options["height"] =    700;
 
     var chart = new google.visualization.BubbleChart(
-    document.getElementById('BubbleChartID834862accdcd')
+    document.getElementById('BubbleChartID14253d210d74')
     );
     chart.draw(data,options);
     
@@ -1162,9 +1162,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBubbleChartID834862accdcd);
+callbacks.push(drawChartBubbleChartID14253d210d74);
 })();
-function displayChartBubbleChartID834862accdcd() {
+function displayChartBubbleChartID14253d210d74() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1188,11 +1188,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID834862accdcd"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID14253d210d74"></script>
  
 <!-- divChart -->
   
-<div id="BubbleChartID834862accdcd" 
+<div id="BubbleChartID14253d210d74" 
   style="width: 700; height: 700;">
 </div>
 
