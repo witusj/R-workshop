@@ -242,7 +242,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">R-Workshop</h1>
 <h4 class="author"><em>Witek ten Hove - <a href="mailto:wfth1969@gmail.com">wfth1969@gmail.com</a></em></h4>
-<h4 class="date"><em>23 September, 2016</em></h4>
+<h4 class="date"><em>30 September, 2016</em></h4>
 
 </div>
 
@@ -761,12 +761,12 @@ survChart &lt;- gvisBubbleChart(surveyDF,
                              )
 plot(survChart)</code></pre>
 <!-- BubbleChart generated in R 3.3.0 by googleVis 0.5.10 package -->
-<!-- Fri Sep 23 23:40:29 2016 -->
+<!-- Fri Sep 30 00:03:31 2016 -->
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataBubbleChartID14253d210d74 () {
+function gvisDataBubbleChartIDc6e677b7541 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1128,8 +1128,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartBubbleChartID14253d210d74() {
-var data = gvisDataBubbleChartID14253d210d74();
+function drawChartBubbleChartIDc6e677b7541() {
+var data = gvisDataBubbleChartIDc6e677b7541();
 var options = {};
 options["hAxis"] = {minValue:1, maxValue:5, title:"Gevolg"};
 options["vAxis"] = {minValue:1, maxValue:5, title:"Waarschijnlijkheid"};
@@ -1137,7 +1137,7 @@ options["width"] =    700;
 options["height"] =    700;
 
     var chart = new google.visualization.BubbleChart(
-    document.getElementById('BubbleChartID14253d210d74')
+    document.getElementById('BubbleChartIDc6e677b7541')
     );
     chart.draw(data,options);
     
@@ -1161,9 +1161,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBubbleChartID14253d210d74);
+callbacks.push(drawChartBubbleChartIDc6e677b7541);
 })();
-function displayChartBubbleChartID14253d210d74() {
+function displayChartBubbleChartIDc6e677b7541() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1186,9 +1186,9 @@ callbacks.shift()();
 // jsFooter
 </script>
 <!-- jsChart -->
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID14253d210d74"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartIDc6e677b7541"></script>
 <!-- divChart -->
-<div id="BubbleChartID14253d210d74" style="width: 700; height: 700;">
+<div id="BubbleChartIDc6e677b7541" style="width: 700; height: 700;">
 
 </div>
 <div id="vragenset-3a" class="section level3">
@@ -1228,7 +1228,7 @@ p</code></pre>
 <li><p>Analyseer de chart en beschrijf wat je opvalt.</p></li>
 <li><p>Verander de chart, zodat in plaats van het thema het percentage van deelnemers wordt getoond dat aangaf het thema als een kans te zien.</p></li>
 </ol>
-<p>In de volgende oefening gaan we data in een geografische kaart plaatsen. De data is via een mobiele telefoon verzameld en kan <a href="https://raw.githubusercontent.com/witusj/R-workshop/gh-pages/Datasets/sessie%203/mean_var.csv">hier</a> opgehaald worden. We gebruiken de <a href="https://rstudio.github.io/leaflet/">Leaflet</a> package.</p>
+<p>In de volgende oefening gaan we data in een geografische kaart plaatsen. De data is via een mobiele telefoon verzameld en kan <a href="https://raw.githubusercontent.com/witusj/R-workshop/gh-pages/Datasets/sessie%203/gps_data.csv">hier</a> opgehaald worden. We gebruiken de <a href="https://rstudio.github.io/leaflet/">Leaflet</a> package.</p>
 <pre class="r"><code>## Laad packages
 library(leaflet)
 
